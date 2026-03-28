@@ -1,0 +1,28 @@
+{
+  "name": "polymarket-copy-trader",
+  "version": "1.0.0",
+  "description": "Clean, safe Polymarket copy trading bot",
+  "main": "dist/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "check-traders": "ts-node src/scripts/checkTraders.ts",
+    "check-balance": "ts-node src/scripts/checkBalance.ts",
+    "dry-run": "DRY_RUN=true ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@polymarket/clob-client": "^4.14.0",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "ethers": "^5.8.0",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^22.10.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
