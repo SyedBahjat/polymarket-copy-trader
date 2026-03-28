@@ -28,7 +28,7 @@ The built-in dashboard at `localhost:3333` shows:
 
 ```bash
 # Clone
-git clone https://github.com/YOUR_USERNAME/polymarket-copy-trader.git
+git clone https://github.com/SyedBahjat/polymarket-copy-trader.git
 cd polymarket-copy-trader
 
 # Install
@@ -113,6 +113,16 @@ src/
 - **Balance limits** — configurable max percentage of wallet to risk
 - **No obfuscation** — every line of code is readable and auditable
 - **Keys stay local** — your private key is only used locally to sign transactions
+
+## Author
+
+**Muhammad Bahjat**
+
+[![GitHub](https://img.shields.io/badge/GitHub-SyedBahjat-181717?style=flat-square&logo=github)](https://github.com/SyedBahjat)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-muhammadbahjat-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/muhammadbahjat/)
+[![Email](https://img.shields.io/badge/Email-syedmbahjat848@gmail.com-EA4335?style=flat-square&logo=gmail)](mailto:syedmbahjat848@gmail.com)
+
+If you find this useful, consider giving it a star! Check out my other projects on [GitHub](https://github.com/SyedBahjat).
 
 ## Disclaimer
 
